@@ -35,7 +35,6 @@ export class AddListingComponent implements OnInit {
       pirce: this.price,
       type: this.type
     }
-    console.log(listing);
     this.firebaseService.addListing(listing);
 
     this.router.navigate(['listings']);

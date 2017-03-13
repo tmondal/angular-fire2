@@ -36,6 +36,7 @@ const appRoutes: Routes = [
   {path: 'listings', component: ListingsComponent},
   {path: 'listing/:id', component: ListingComponent},
   {path: 'add-listing', component: AddListingComponent},
+  {path: 'edit-listing/:id', component: EditListingComponent},
 ]
 
 @NgModule({
